@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>課程問卷</title>
+</head>
+<body>
+<header>
+  <h1>課程問卷</h1>
+  <nav>
+  </nav></header>
+  <section>
+    <p>
+    <h2>讓我了解你，一點點就好</h2>
+    <p>
+    <label for="name">那，你的名字是？</label><br>
+    <input type="text" name="d" id="name">
+    </p>
+    <p>
+    性別呢？<br>
+    <input type="radio" name="gender" id="male"><label for="male">男孩</label>
+    <input type="radio" name="gender" id="female"><label for="female">女孩</label>
+    <input type="radio" name="gender" id="none"><label for="none">無法歸類</label>
+    </p>
+    <p>
+    <label for="department">你的系級是？</label><br>
+    <input type="text" name="d" id="department">
+    </p>
+    <p>
+    <label for="student id">學號呢？</label><br>
+    <input type="number" name="d" id="student id">
+    </p>
+    <p>
+    <label for="birth">什麼時候生日呢</label><br>
+    <input type="date" name="d" id="birth">
+    </p>
+    <p>
+    你使用的交通工具？<br>
+    <input type="checkbox" name="transport" id="foot"><label for="foot">腳</label>
+    <input type="checkbox" name="transport" id="bike"><label for="bike">自行車</label>
+    <input type="checkbox" name="transport" id="motor"><label for="motor">機車</label>
+    <input type="checkbox" name="transport" id="car"><label for="car">汽車</label><br>
+    <input type="checkbox" name="transport" id="bus"><label for="bus">公車</label>
+    <input type="checkbox" name="transport" id="metro"><label for="metro">捷運</label>
+    <input type="checkbox" name="transport" id="train"><label for="train">火車</label>
+    <input type="checkbox" name="transport" id="plane"><label for="plane">飛機</label>
+    </p>
+    
+    <p>
+     最高學歷？<br>
+    <input type="radio" name="edu" id="L" value="高中以下"><label for="L">高中以下</label><br>
+    <input type="radio" name="edu" id="H" value="高中"><label for="H">高中</label><br>
+    <input type="radio" name="edu" id="college" value="大學"><label for="college">大專院校</label><br>
+    <input type="radio" name="edu" id="BD" value="學士"><label for="BD">學士學位</label><br>
+    <input type="radio" name="edu" id="MA" value="碩士"><label for="MA">碩士學位</label><br>
+    <input type="radio" name="edu" id="phD" value="博士"><label for="phD">博士學位</label><br>
+    <input type="radio" name="edu" id="none" value="none"><label for="none">我不想回答</label><br>
+    </p>
+    <p>
+    你的職業是？<br>
+    <input type="radio" name="job" id="accounting" value="accounting"><label for="ccounting">Accounting</label><br>
+      <input type="radio" name="job" id="Writing&Editing" value="Writing&Editing"><label for="Writing&Editing">Writing & Editing</label><br>
+      <input type="radio" name="job" id="Animation" value="Animation"><label for="Animation">Animation</label><br>
+      <input type="radio" name="job" id="Photography" value="Photography"><label for="Photography">Photography</label><br>
+      <input type="radio" name="job" id="Graphic Design" value="Graphic Design"><label for="Graphic Design">Graphic Design</label><br>
+      <input type="radio" name="job" id="Computer Software" value="Computer Software"><label for="Computer Software">Computer Software</label><br>
+      <input type="radio" name="job" id="Computer Games" value="Computer Games"><label for="Computer Games">Computer Games</label><br>
+      <input type="radio" name="job" id="Information Technology & Services" value="Information Technology & Service"><label for="Information Technology & Service">Information Technology & Service</label><br>
+    
+    
+    <hr>
+    
+  <h2>能不能讓我聯絡你</h2>
+    <p>
+      <label for="phone">手機號碼</label><br>
+      <input type="number" name="c" id="phone"></p>
+    <p>
+    <label for="email">e-mail</label><br>
+      <input type="email" name="c" id="email"></p>
+    <p>
+      <label for="site">個人網頁</label><br>
+      <input type="url" name="c" id="site">
+  <hr>
+  謝謝你的填答，確認完成後，記得按送出喔！<br><br>
+  <input type="submit" value="送出">
+  </section>
+<footer>
+  
+  <dl>
+    <dt>資料使用承諾</dt>
+    <dd>此表單資料將不會在任何情況下被公開，你可以信任我。</dd>
+  </dl>
+</footer>
+  
+  
+  
+  
+</body>
+</html>
